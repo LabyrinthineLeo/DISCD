@@ -19,6 +19,7 @@ Cognitive diagnosis (CD) has been always recognized a essential learner modeling
 #### Usage
 Train & Test model:
 ```
+cd ./Train_CDM
 lrs=(1e-2 8e-3 5e-3 3e-3 1e-3)
 python3 ./train.py --model "discd" --save_dir "../Results" --epoch 30 --dataset "nips-edu" --lr $lr --lambda_1 1e-5
 ```
